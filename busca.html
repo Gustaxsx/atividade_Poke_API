@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Busca</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="busca.html" class="active">Buscar Pokémon</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Galeria de Pokémon</h1>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Digite o nome de um Pokémon...">
+            <button id="searchButton">Buscar</button>
+        </div>
+
+        <div id="pokemonGallery" class="pokemon-gallery">
+            </div>
+
+        <div id="loading" style="display: none;">Carregando...</div>
+
+    </main>
+
+    <footer>
+        <p>Projeto de Atividade © 2025 - Usando a PokéAPI</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
