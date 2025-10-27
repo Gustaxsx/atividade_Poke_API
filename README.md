@@ -29,4 +29,4 @@ Demonstrar o consumo de uma API REST, manipulação do DOM com JavaScript e nave
 ## 🧑‍💻 Autor
 
 * **Nome:** [Gustavo Mathias]
-*
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex - Detalhes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./detalhes.js">
 </head>
 <body>
 
@@ -17,10 +18,24 @@
     </header>
 
     <main class="container">
-        <div id="pokemonDetailsContainer">
+        <div id="loading" style="display: none;">Carregando detalhes...</div>
+
+        <div id="pokemonDetailsPage" style="display: none;">
+            
+            <div id="pokemonMainInfo" class="pokemon-details-container">
+                </div>
+
+            <div id="pokemonStats" class="pokemon-details-container">
+                <h2>Estatísticas</h2>
+                </div>
+
+            <div id="pokemonEvolution">
+                <h2>Cadeia de Evolução</h2>
+                <div id="evolutionContainer" class="pokemon-gallery">
+                    </div>
             </div>
 
-        <div id="loading">Carregando detalhes...</div>
+        </div>
     </main>
 
     <footer>
